@@ -1,0 +1,22 @@
+{
+  "name": "workspace-listener",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "demo": "ts-node --project ./demo/tsconfig.json ./demo/index.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "license": "ISC"
+}
